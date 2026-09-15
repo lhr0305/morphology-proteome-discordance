@@ -1,0 +1,23 @@
+# Core analysis
+numpy>=1.23,<2.0
+pandas>=1.5
+scipy>=1.9
+scikit-learn>=1.2
+joblib>=1.2
+
+# Pathway / signalling activity scoring
+gseapy>=1.0
+decoupler>=1.5
+
+# Imaging
+pydicom>=2.3
+Pillow>=9.4
+h5py>=3.8
+
+# Data retrieval
+requests>=2.28
+
+# Pathology foundation encoders and nuclei model are fetched from their own
+# public repositories at runtime (torch + timm required by those packages).
+torch>=2.0
+timm>=0.9
